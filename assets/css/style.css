@@ -65,7 +65,7 @@
     line-height: normal;
 }
 
-.first .accordion-items {
+.first .accordion-items1 {
     width: 992px;
     border-radius: 5px;
     /* border: 1px solid red; */
@@ -73,7 +73,7 @@
     cursor: pointer;
 }
 
-.second .accordion-items {
+.second .accordion-items2 {
     width: 900px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 
-.third .accordion-items {
+.third .accordion-items3 {
     width: 498px;
     border-radius: 5px;
     border: 1px solid red;
@@ -124,42 +124,50 @@
     display: none;
 }
 
-.first .active {
+.first .active1 {
     border: transparent;
 
 }
 
-.second .active {
+.second .active2 {
     border: 1px solid gold;
 
 }
 
-.third .active {
+.third .active3 {
     border: 1px solid red;
 
 }
 
-.active p {
+.active1 p {
+    display: block;
+
+}
+.active2 p {
+    display: block;
+
+}
+.active3 p {
     display: block;
 
 }
 
-.first .active h2 {
+.first .active1 h2 {
     color: black;
 }
-.second .active h2 {
+.second .active2 h2 {
     color: gold;
 }
-.third .active h2 {
+.third .active3 h2 {
     color: red;
 }
 
-.first .active img {
+.first .active1 img {
     transform: rotate(180deg);
 }
-.second .active img {
+.second .active2 img {
     transform: rotate(90deg);
 }
-.third .active img {
+.third .active3 img {
     transform: rotate(200deg);
 }
